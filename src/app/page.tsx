@@ -1,10 +1,10 @@
-import Content from "@/components/Content";
-import HomePage from "@/components/HomePage";
+import HomeContent from '@/components/HomeContent'
 
 
 export default function Home() {
-  return <div className="relative">
-    <HomePage />
-    <Content/>
-  </div>
+  return (
+    <div className='relative'>
+      <HomeContent />
+    </div>
+  )
 }
