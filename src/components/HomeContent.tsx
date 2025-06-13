@@ -1,5 +1,7 @@
 import CardBlog from '@/components/CardBlog'
 import H4 from '@/components/H4'
+import Image from 'next/image'
+import logo from '../../assets/violometro.jpg'
 
 const tiposDeViolencia = [
   {
@@ -76,6 +78,7 @@ export default function HomeContent() {
         })}
       </div>
       <H4 text='Violentômetro' />
+      <Image src={logo} alt='Violentômetro' className='w-1/2' />
     </main>
   )
 }
