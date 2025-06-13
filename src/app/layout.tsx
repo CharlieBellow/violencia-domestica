@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import TopPage from '@/components/TopPage'
+import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Psicólogo Charlie',
@@ -13,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang='pt-BR'>
+    <html lang='pt-BR' className=''>
       <head>
         <link rel='preconnect' href='https://fonts.googleapis.com' />
 
@@ -22,9 +23,16 @@ export default function RootLayout({
           rel='stylesheet'
         />
       </head>
-      <body className='font-roboto'>
+      <body className='font-roboto h-screen flex justify-between flex-col'>
         <TopPage/>
-        {children}</body>
+        <div className='overflow-y-scroll'>
+<div className=''>
+
+        {children}
+</div>
+        <Footer/>
+        </div>
+        </body>
     </html>
   )
 }
