@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import logo from '../../assets/uniasselvi-pgn-tranp.png'
+import logo from '../../assets/logo-white.png'
 
 export default function Header() {
   return (
-    <div className='flex justify-between md:items-center flex-col md:flex-row'>
+    <div className='flex justify-between md:items-center flex-col md:flex-row h-fit'>
       {/* trocar por uma logo com o nome branco */}
       <Image
         src={logo}

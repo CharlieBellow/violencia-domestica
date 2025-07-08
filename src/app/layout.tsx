@@ -4,8 +4,8 @@ import TopPage from '@/components/TopPage'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Psicólogo Charlie',
-  description: 'Site do psicólogo Charlie',
+  title: 'Violência Doméstica',
+  description: 'Site sobre violência doméstica',
 }
 
 export default function RootLayout({
