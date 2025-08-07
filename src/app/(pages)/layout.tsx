@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer"
+import TopPage from "@/components/TopPage"
 import type { Metadata } from "next"
-import "./globals.css"
+import "../globals.css"
 
 export const metadata: Metadata = {
   title: "Violência Doméstica",
@@ -23,8 +24,10 @@ export default function RootLayout({
         />
       </head>
       <body className="font-roboto h-full flex justify-between flex-col">
+        <TopPage />
         <div className="">
           {children}
+          <Footer />
         </div>
       </body>
     </html>

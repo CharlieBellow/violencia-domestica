@@ -60,7 +60,7 @@ export default function HomeContent() {
   return (
     <main className="space-y-8 pt-8 items-center flex flex-col">
       <H4 text="Tipos de Violência" />
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid lg:grid-cols-3 gap-8">
         {tiposDeViolencia.map((card) => {
           return (
             <CardBlog
@@ -78,7 +78,13 @@ export default function HomeContent() {
         })}
       </div>
       <H4 text="Violentômetro" />
-      <Image src={logo} alt="Violentômetro" width={300} height={400} />
+      <Image
+        src={logo}
+        alt="Violentômetro"
+        width={500}
+        height={300}
+        className="w-96 pb-4 h-auto"
+      />
     </main>
   )
 }

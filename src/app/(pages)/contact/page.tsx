@@ -1,5 +1,5 @@
-import ContactUs from '@/app/contact/components/ContactUs'
-import UtilsContacts from '@/app/contact/components/UtilsContacts'
+import ContactUs from "@/app/(pages)/contact/components/ContactUs"
+import UtilsContacts from '@/app/(pages)/contact/components/UtilsContacts'
 
 export default function Home() {
   return (

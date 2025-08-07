@@ -8,22 +8,20 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    // gradientColorStops: {
-    //   'primary': '#181753',
-    //   'secondary': '#1C1E59',
-    //   'danger': '#1C255E',
-    // },
     extend: {
       fontFamily: {
-        roboto: ['Roboto', 'sans-serif'],
+        roboto: ["Roboto", "sans-serif"],
       },
       colors: {
         purple: {
-          1: '#EBC8C2',
-          2: '#B3629D',
+          1: "#EBC8C2",
+          2: "#B3629D",
           3: "#A462B3",
           4: "#A462B3",
           5: "#8962B3",
+        },
+        ciano: {
+          4: "#00C4A7",
         },
         primary: "#626FB3",
         fundo: "#626FB3",

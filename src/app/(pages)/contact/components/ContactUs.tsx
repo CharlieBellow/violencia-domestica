@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logo from '../../../../assets/uniasselvi-pgn-tranp.png'
+import logo from '../../../../../assets/uniasselvi-pgn-tranp.png'
 import Link from 'next/link'
 import { FaWhatsapp } from 'react-icons/fa'
 import H6 from '@/components/H6'
